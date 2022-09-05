@@ -59,5 +59,5 @@ Also one thing that wasn't on the project but I did is risponsiveness on the sma
 ## What will I add to this project if I had more time?
 I would've done all three prjects and put each of them in one route and I would use react-router-dom for routing and I'd use Framer-Motion for setting a enter and an exit animation for each route. And I'd probably add dark mode and light mode, also a navbar for switching between pages.
 
-I hope you enjoy reading this long text. i didn't know and still don't know what documenting a project is, but I did my best.
-Hope you enjoy it.
+I hope you enjoy reading this long text. I didn't know and still don't know what documenting a project is, but I did my best.
+Hope you'd enjoyed it.

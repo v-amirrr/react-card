@@ -3,12 +3,14 @@
 <br>
 <br>
 <br>
+
 ## About this project
 This project contains 2 cards which are built with React.js and CSS Modules.
 <br>
 <br>
 <br>
 <br>
+
 ## How does it work?
 FIRST CARD :)
 First card has a date section which contains day, month and year. I used CSS variables for the date section's color becuase we need that color in another section too.

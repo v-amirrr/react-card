@@ -1,0 +1,20 @@
+:root {
+    --bg: #034378;
+    --light-green: #77d7b9;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--bg);
+    font-family: 'Outfit', sans-serif;
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,137 @@
+.card-second {
+    position: relative;
+    width: 20rem;
+    height: 27rem;
+    margin: 1rem;
+    box-shadow: #00000066 0px 7px 29px 0px;
+    overflow: hidden;
+    color: #fff;
+}
+
+.card-second-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: .5rem;
+}
+
+.card-second-header-date {
+    font-size: .6rem;
+}
+
+.card-second-header-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-second-header-icons div {
+    height: 100%;
+    padding: .3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-second-header-icons div p {
+    position: absolute;
+    top: 1rem;
+    font-size: .5rem;
+    opacity: 0;
+    transition: opacity .3s, top .3s;
+    -webkit-transition: opacity .3s, top .3s;
+    -moz-transition: opacity .3s, top .3s;
+    -ms-transition: opacity .3s, top .3s;
+    -o-transition: opacity .3s, top .3s;
+    cursor: pointer;
+}
+
+.card-second-header-icons div i {
+    font-size: .8rem;
+    cursor: pointer;
+}
+
+.card-second:hover .card-second-header-icons > div p {
+    opacity: 1;
+    top: .1rem;
+}
+
+.card-second-box {
+    position: absolute;
+    bottom: -7rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 4;
+    transition: bottom .3s;
+    -webkit-transition: bottom .3s;
+    -moz-transition: bottom .3s;
+    -ms-transition: bottom .3s;
+    -o-transition: bottom .3s;
+}
+
+.card-second:hover .card-second-box {
+    bottom: 0;
+}
+
+.card-second-box-header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    z-index: 2;
+    padding: .5rem;
+}
+
+.card-second-box-header p {
+    font-size: .6rem;
+}
+
+.card-second-box-title {
+    font-size: 1.7rem;
+    font-weight: 100;
+    cursor: pointer;
+    padding: .5rem .5rem 1rem .5rem;
+    z-index: 2;
+}
+
+.card-second-box-detail {
+    font-size: .9rem;
+    font-weight: 300;
+    padding: 0 .5rem 1rem .5rem;
+}
+
+.card-second-box-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    position: relative;
+}
+
+.card-second-box-button p {
+    font-size: .6rem;
+}
+
+.card-second-box-button i {
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: -.8rem;
+    opacity: 0;
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+
+.card-second-box-button:hover .card-second-box-button-icon {
+    right: -1.2rem;
+    opacity: 1;
+}

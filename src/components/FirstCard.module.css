@@ -1,0 +1,139 @@
+.card-first {
+    position: relative;
+    width: 20rem;
+    height: 27rem;
+    margin: 1rem;
+    box-shadow: #00000066 0px 7px 29px 0px;
+    overflow: hidden;
+}
+
+.card-first-date {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 14%;
+    padding: .6rem 0;
+    background-color: var(--light-green);
+    color: #fff;
+}
+
+.card-first-date > p:nth-child(1) {
+    font-size: 1.5rem;
+    font-weight: 900;
+    text-shadow: #00000059 0px 4px 4px;
+}
+
+.card-first-date > p:nth-child(2),
+.card-first-date > p:nth-child(3) {
+    font-size: .7rem;
+}
+
+.card-first-box {
+    position: absolute;
+    bottom: -4.5rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 4;
+    transition: bottom .3s;
+    -webkit-transition: bottom .3s;
+    -moz-transition: bottom .3s;
+    -ms-transition: bottom .3s;
+    -o-transition: bottom .3s;
+}
+
+.card-first:hover .card-first-box {
+    bottom: 0;
+}
+
+.card-first-box-header { 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: #fff;
+    z-index: 2;
+    padding: .5rem;
+}
+
+.card-first-box-header p {
+    font-size: .6rem;
+}
+
+.card-first-box-header i {
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.card-first-box-title {
+    font-size: 1.7rem;
+    font-weight: 100;
+    cursor: pointer;
+    padding: .5rem .5rem 1rem .5rem;
+    background-color: #fff;
+    z-index: 2;
+}
+
+.card-first-box-detail {
+    font-size: .8rem;
+    font-weight: 300;
+    padding: 0 .5rem 1rem .5rem;
+}
+
+.menu-hide, .menu-show {
+    width: 100%;
+    height: 2.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    background-color: var(--light-green);
+    position: absolute;
+    top: 0;
+    color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px -40px 36px -28px inset;
+    transition: top .3s;
+    -webkit-transition: top .3s;
+    -moz-transition: top .3s;
+    -ms-transition: top .3s;
+    -o-transition: top .3s;
+}
+
+.menu-show {
+    top: -2.8rem;
+}
+
+.menu-hide div, .menu-show div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    cursor: pointer;
+    height: 100%;
+}
+
+.menu-hide div p, .menu-show div p {
+    font-size: .6rem;
+    position: absolute;
+    top: 0;
+    padding: .1rem;
+    height: 100%;
+}
+
+.menu-hide div i, .menu-show div i {
+    font-size: 1.3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-hide div:nth-child(1) p, .menu-show div:nth-child(1) p {
+    opacity: 0;
+}

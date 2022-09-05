@@ -1,10 +1,15 @@
 ## Welcome  ( ͡° ͜ʖ ͡°)
-
+<br>
+<br>
+<br>
+<br>
 ## About this project
 This project contains 2 cards which are built with React.js and CSS Modules.
-
-## How does it work?
 <br>
+<br>
+<br>
+<br>
+## How does it work?
 FIRST CARD :)
 First card has a date section which contains day, month and year. I used CSS variables for the date section's color becuase we need that color in another section too.
 <br>
@@ -44,6 +49,8 @@ So just like the first card the detail section in box is out of card for seeing 
 <br>
 <br>
 Also one thing that wasn't on the project but I did is risponsiveness on the small devices. I used flexbox and the if the width of device be less than 768px, you'll see the cards in a column. And if the device's width is more than that you'll see it in a row.
+<br>
+<br>
 <br>
 <br>
 
